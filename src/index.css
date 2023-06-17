@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+* {
+	/* padding: 0px;
+	margin: 0; */
+	box-sizing: border-box;
+}
+
+body {
+	background: #E8E8E8; 
+	font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+	text-align: center;	
+	color:hwb(102 13% 58%);
+}
+
+.contenedor {
+	min-height: 100vh;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.formulario {
+	min-width: 600px;
+	margin-top: 30px;
+	max-width: 50px;
+	background:#fff;
+	border-radius: 5px;
+	padding: 20px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.divalinear{
+    margin-left:auto;
+    margin-right:auto;
+    width: 50%;
+}
+
+.formulario > div {
+	margin-bottom: 20px;
+}
+
+.formulario label {
+	display: block;
+	font-weight: 600;
+	font-size: 14px;
+	margin-bottom: 5px;
+	color: #1f1f1f;
+}
+
+.formulario input,
+.formulario select,
+.formulario textarea {
+	font-family: 'Open Sans', sans-serif;
+	width: 100%;
+	border-radius: 5px;
+	border: 2px solid #e2e2e2;
+	font-size: 13px;
+	padding: 10px;
+	margin-bottom: 5px;
+	color: #1f1f1f;
+}
+
+.formulario input:focus,
+.formulario select:focus,
+.formulario textarea:focus {
+	outline: none;
+	border: 2px solid #0085FF;
+}
+
+.formulario .error {
+	color: #e92b2d;
+	font-weight: 600;
+	font-size: 12px;
+}
+
+.formulario button[type="submit"] {
+	display: block;
+	background: #0085FF;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+	border: none;
+	cursor: pointer;
+	width: 30%;
+	padding: 10px;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 16px;
+	transition: .3s ease all;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.formulario button[type="submit"]:hover {
+	background: #0051ff;
+}
+
+.formulario .exito {
+	text-align: center;
+	font-size: 14px;
+	padding-top: 20px;
+	color: #02a802;
+}
+
+.formulario input[type="radio"] {
+	width: auto;
+}
+
+textarea {
+	resize: none;
+	height: auto;
+}
+
+
+table {
+	table-layout: fixed;
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid;
+	border-color:darkslategrey;
+}
+
+table th, table td {
+	padding: 8px;
+	text-align: left;	
+}
+  
+table th {
+	background-color: rgb(185, 192, 205);
+}
+
+table tr:hover {
+	background-color: hwb(98 82% 14%);
+}
+
+
+.button-container {
+	display: flex;
+  }
+  
+
+.mensajeError {
+	color: #e92b2d;
+	/* font-weight: 600;
+	font-size: 12px; */
+}
+
+
+.mycheck:checked {
+	background-color:#02a802;
+  }
+
+  input[type="checkbox"] {
+	-webkit-appearance: none;
+	appearance: none;
+	background-color: var(--form-background);
+	margin-right: 10px;
+  
+	font: inherit;
+	color: currentColor;
+	width: 1.15em;
+	height: 1.15em;
+	border: 0.15em solid currentColor;
+	border-radius: 0.15em;
+	transform: translateY(-0.075em);
+	display: grid;
+	place-content: center;
+  }
+  
+  input[type="checkbox"]::before {
+	content: "";
+	width: 0.65em;
+	height: 0.65em;
+	clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+	transform: scale(0);
+	transform-origin: bottom left;
+	transition: 120ms transform ease-in-out;
+	box-shadow: inset 1em 1em var(--form-control-color);
+	/* Windows High Contrast Mode */
+	background-color: CanvasText;
+  }
+  
+  input[type="checkbox"]:checked::before {
+	transform: scale(1);
+  }
+  
+  input[type="checkbox"]:focus {
+	outline: max(2px, 0.15em) solid currentColor;
+	outline-offset: max(2px, 0.15em);
+  }
+  
+  input[type="checkbox"]:disabled {
+	--form-control-color: var(--form-control-disabled);
+	color: var(--form-control-disabled);
+	cursor: not-allowed;
+  }
+
+  .contenedor_check {
+	display: flex;
+	align-items: flex-start;
+	justify-content: left;
+}
+
+.texto-izquierda {
+	text-align: left;
+  }
+
+  h4 {	
+	color:1f1f1f;
+}
