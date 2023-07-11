@@ -1,7 +1,15 @@
 import React,  { useState } from 'react';
+import AWS from 'aws-sdk';
 import { useAppContext } from './Provider.js';
 import {Comboid} from './catalogos.js';
 import Vehiculo from './Vehiculo.js';
+
+AWS.config.update ({ 
+  accessKeyId: process.env.REACT_APP_AWS_ACCESS_KEY_ID,
+  secretAccessKey: process.env.REACT_APP_AWS_SECRET_ACCESS_KEY,
+  region: 'us-east-1',
+  sessiontoken: process.env.REACT_APP_AWS_SESSION_TOKEN
+});
 
 
  const Cliente = () => {
