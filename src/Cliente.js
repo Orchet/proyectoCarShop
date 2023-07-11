@@ -65,7 +65,7 @@ AWS.config.update ({
        <div> 
           <form className='formulario' onSubmit ={handleSubmit}>
             <div>
-              <h2>Ingreso de Datos del Cliente</h2>
+              <h2>Ingreso de Datos del Cliente - Cambio</h2>
             </div>
             <div>
               <label htmlFor='nombre'>Nombres</label>
