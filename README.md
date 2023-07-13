@@ -53,15 +53,8 @@
     <p>
         Por favor ejecutar las siguientes instrucciones para poder levantar el proyecto
     </p>
-    <ul>
-        <li>Copiar carpeta del proyecto en ruta donde tenga instalada las dependencias de React y NodeJs</li>
-
-        <p>Instalar los siguientes paquetes:</p>
-		<ul>
-			<li>npm install format</li>
-			<li>npm install format</li>
-			<li>npm install format</li>
-			<li>npm install format</li>
-		</ul>        	
-    </ul>
+A list of technologies used within the project:
+* [Technologie name](https://example.com): Version 12.3 
+* [Technologie name](https://example.com): Version 2.34
+* [Library name](https://example.com): Version 1234
 </div>
