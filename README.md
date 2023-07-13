@@ -34,13 +34,13 @@
     	El proyecto está dividido en los siguientes componentes:
     </p>
     <ul>
-	<li>Landing de la aplicación</li>
-	<li>Registro de cliente</li>
-	<li>Página de login (user/admin/operator)</li>
-	<li>Consulta de órdenes (user/admin/operator)</li>
-	<li>Agendamiento de fecha para órdenes</li>
-	<li>Cancelación de órdenes</li>
-	<li>Eliminación de órdenes</li>
+		<li>Landing de la aplicación</li>
+		<li>Registro de cliente</li>
+		<li>Página de login (user/admin/operator)</li>
+		<li>Consulta de órdenes (user/admin/operator)</li>
+		<li>Agendamiento de fecha para órdenes</li>
+		<li>Cancelación de órdenes</li>
+		<li>Eliminación de órdenes</li>
         <li>Ingreso de datos del cliente</li>
         <li>Ingreso de datos del vehículo a recibir</li>
         <li>Selección de los servicios a aplicar al vehículo</li>
@@ -55,6 +55,12 @@
     </p>
     <ul>
         <li>Copiar carpeta del proyecto en ruta donde tenga instalada las dependencias de React y NodeJs</li>
-        <li>Instalar los siguientes paquetes</li>
+
+        <li>Instalar los siguientes paquetes:
+			<ul><li>npm install format</li>
+				<li>npm install format</li>
+				<li>npm install format</li>
+				<li>npm install format</li></ul>        	
+        </li>
     </ul>
 </div>
