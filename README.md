@@ -55,8 +55,6 @@
     </p>
     <ul>
         <li>Copiar carpeta del proyecto en ruta donde tenga instalada las dependencias de React y NodeJs</li>
-
-        <li>Instalar los siguientes paquetes:
-        </li>
+        <li>Instalar los siguientes paquetes</li>
     </ul>
 </div>
