@@ -50,8 +50,7 @@
 
 <div STYLE="margin:30px 180px">
     <H3>Desarrollo y Despliegue</H3>
-    <H5>Por favor ejecutar las siguientes instrucciones para poder levantar el proyecto</H5>
-
+    <p>Por favor ejecutar las siguientes instrucciones para poder levantar el proyecto</p>
     <p>Copiar carpeta del proyecto en ruta donde tenga instalada las dependencias de React y NodeJs</p>
     <p>Instalar los siguientes paquetes:</p>
 	<ul>
