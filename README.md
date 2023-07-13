@@ -58,58 +58,5 @@
 
         <li>Instalar los siguientes paquetes:
         </li>
-        <li>Ejecutar comandos para levantar proyecto:
-        	<ol>
-        		<li>NodeJS: APIS de funcionalidad del sistema (Backend), puerto 4000
-        			<ul>
-        				<li>cd backend</li>
-        				<li>npm run dev (internamente ejecuta script node ./adminsite.js)</li>
-        			</ul>
-        		</li>
-        		<li>React: Componentes (Backend)
-        			<ul>
-        				<li>cd frontend</li>
-        				<li>npm start</li>
-        			</ul>
-        		</li>
-        	</ol>
-        </li>
-        <li>Usuarios Admin y Operator (para fines educativos se indica el password)
-			<ul>
-				<li>Admin: vera_lucio@hotmail.com  -   Pass: 1234 </li>
-				<li>Operator: vera_lucio@hotmail.com  -   Pass: 1234 </li>
-			</ul>
-        </li>
-
-        <li>API de cambio de estado de la orden usando BASIC AUTH
-        	<ul>
-        		<li>Puerto: 3002</li>
-        		<li>Levantar: node apiorderjwt.js</li>
-        		<li>Endpoint:
-        			<ul>
-        			<li>Get: http://localhost:3002/api/apiorders </li>
-        			<li>Put: http://localhost:3002/api/apiorders/{id de orden} </li>
-        			</ul>
-        		</li>
-        		<li>Validación con el usuario y password que esta en un esquema de mongo
-					<p>	   _id: {id de orden},</p>
-					<p>	   esquema: basic-auth,</p>
-					<p>	   login: yourlogin,</p>
-					<p>	   password: yourpassword,</p>
-        		</li>
-        	</ul>
-        </li>
-        <li>API JWT
-        	<ul>
-        		<li>Puerto: 3003</li>
-        		<li>Levantar: node apiorderjwt.js</li>
-        		<li>Endpoint:
-        			<ul>
-        			<li>Get: http://localhost:3003/apijwt/login </li>
-        			<li>Put: http://localhost:3003/apijwt/apiorders/{id de orden} </li>
-        			</ul>
-        		</li>
-        	</ul>
-        </li>
     </ul>
 </div>
