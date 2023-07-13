@@ -56,11 +56,12 @@
     <ul>
         <li>Copiar carpeta del proyecto en ruta donde tenga instalada las dependencias de React y NodeJs</li>
 
-        <li>Instalar los siguientes paquetes:
-			<ul><li>npm install format</li>
-				<li>npm install format</li>
-				<li>npm install format</li>
-				<li>npm install format</li></ul>        	
-        </li>
+        <p>Instalar los siguientes paquetes:</p>
+		<ul>
+			<li>npm install format</li>
+			<li>npm install format</li>
+			<li>npm install format</li>
+			<li>npm install format</li>
+		</ul>        	
     </ul>
 </div>
