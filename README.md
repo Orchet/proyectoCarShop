@@ -54,10 +54,14 @@
     <p>1. Copiar carpeta del proyecto en ruta donde tenga instalada las dependencias de React y NodeJs</p>
     <p>2. Instalar los siguientes paquetes:</p>
 	<ul>
-		<li>npm install format</li>
-		<li>npm install format</li>
-		<li>npm install format</li>
-		<li>npm install format</li>
+		<li>npm install --save moment</li>
+		<li>npm install bootstrap</li>
+		<li>npm install react-bootstrap bootstrap</li>
+		<li>npm install react-router-dom</li>
+		<li>npm install react-router-bootstrap</li>
+		<li>npm install axios</li>
+		<li>npm install react-modal</li>
+		<li>npm install --save react-toastify</li>
 	</ul>
     <p>3. Levantar Backend NodeJS: APIS de funcionalidad del sistema (lo hace en puerto 4000)</p>  
 	<ul>
